@@ -1,0 +1,112 @@
+body{
+    background: linear-gradient(145deg, rgb(240, 235, 252), rgb(187, 126, 236));
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
+}
+header{
+    background-color:rgb(132, 68, 206);
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    margin: 0;
+    
+
+}
+header #dark_mode_btn{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 150px;
+    font-size: 15px;
+    background-color: rgb(29, 0, 82);
+    color:beige;
+
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color:rgb(252, 255, 255);
+    text-shadow: 5px 5px 10px rgb(199, 160, 235);
+    
+}
+.section{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(207, 171, 255);
+    width: 400px;
+    padding: 15px;
+    margin: 25px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    margin: 10px;
+
+
+}
+.time-display{
+    font-size: 40px;;
+}
+
+input[type="number"]{
+    border-radius: 5px;
+    border : 1px solid;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 15px;
+    padding: 5px;
+    margin:10px 5px;
+    width:75px;
+    background-color: rgb(221, 211, 230);
+}
+
+.start:hover{
+    background-color: rgb(106, 74, 248);
+}
+
+.reset:hover{
+    background-color: rgb(155, 165, 253);
+    
+}
+
+.stop:hover{
+    background-color: rgb(248, 154, 252);
+
+}    
+/*Dark mode */
+
+.dark-mode{
+    background: linear-gradient(145deg, rgb(23, 0, 44), rgb(62, 16, 105));
+    color:beige;
+}
+.dark-mode header{
+    background-color: rgb(84, 3, 190);
+    color:aliceblue;
+}
+.dark-mode h1{
+    color:white;
+    text-shadow: 5px 5px 10px rgb(219, 200, 255);
+}
+.dark-mode .section{
+    border: 2px solid white;
+    background-color: rgb(67, 26, 121);
+}
+.dark-mode #dark_mode_btn{
+    background-color: rgb(181, 116, 255);
+    
+}
+
