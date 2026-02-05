@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="1.3.2.Quiz.css">
+        <title>Quiz game</title>
+    </head>
+    <body>
+      <div class="container">
+      <h1>Quiz Game</h1>
+      
+      <div id="topic-selection">
+        <label for="topic">
+          <select id="topic">
+            <option value="">--Choose Topic--</option>
+            <option value="Maths">Maths</option>
+            <option value="Science">Science</option>
+            <option value="Programming">Programming</option>
+          </select>
+        </label>
+
+        <!--This will create a dropdown to select topic for quiz-->
+        
+        <button onclick="StartQuiz()">Start Quiz</button>
+        </div>
+        
+
+       <div id="quiz-area" class="hidden">
+        <h2 id="question"></h2>
+        <div id="options"></div>
+        <button id="next-btn" onclick="NextQuestion()" class="hidden">Next</button>
+        <p id="result"></p>
+       </div>
+        </div>
+
+        <script src="./1.3.3.Quiz.js"></script>
+    </body>
+</html>
