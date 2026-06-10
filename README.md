@@ -14,17 +14,6 @@ A real-time digital clock that displays the current time dynamically using JavaS
 
 ---
 
-### 2. Quiz Game
-An interactive quiz application with dynamic questions and score tracking.
-
-#### Features
-- Multiple-choice questions
-- Score calculation
-- Dynamic question rendering
-- Interactive user interface
-
----
-
 ### 3. To-Do List
 A task management application that allows users to add, complete, and delete tasks.
 
