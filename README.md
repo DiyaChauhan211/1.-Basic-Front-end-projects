@@ -14,7 +14,7 @@ A real-time digital clock that displays the current time dynamically using JavaS
 
 ---
 
-### 3. To-Do List
+### 2. To-Do List
 A task management application that allows users to add, complete, and delete tasks.
 
 #### Features
@@ -25,13 +25,25 @@ A task management application that allows users to add, complete, and delete tas
 
 ---
 
-### 4. Task Manager
+### 3. Task Manager
 A responsive task manager application for organizing daily tasks efficiently.
 
 #### Features
 - Add and remove tasks
 - Task completion tracking
 - DOM manipulation using JavaScript
+
+---
+
+### 4. Personal Portfolio site
+A responsive personal portfolio website designed to showcase my skills, projects, certifications, education, and contact information.
+
+#### Features
+- Responsive and modern user interface
+- Smooth scrolling navigation
+- Skills, projects, and certifications sections
+- Downloadable resume and social media links
+- Contact form for visitor inquiries
 
 ---
 
