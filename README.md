@@ -14,7 +14,16 @@ A real-time digital clock that displays the current time dynamically using JavaS
 
 ---
 
-### 2. To-Do List
+### 2. Task Manager
+A responsive task manager application for organizing daily tasks efficiently.
+
+#### Features
+- Add and remove tasks
+- Task completion tracking
+- DOM manipulation using JavaScript
+
+---
+### 3. To-Do List
 A task management application that allows users to add, complete, and delete tasks.
 
 #### Features
@@ -22,16 +31,6 @@ A task management application that allows users to add, complete, and delete tas
 - Mark tasks as completed
 - Delete tasks
 - User-friendly interface
-
----
-
-### 3. Task Manager
-A responsive task manager application for organizing daily tasks efficiently.
-
-#### Features
-- Add and remove tasks
-- Task completion tracking
-- DOM manipulation using JavaScript
 
 ---
 
@@ -60,6 +59,39 @@ A responsive personal portfolio website designed to showcase my skills, projects
 - Responsive Web Design
 - JavaScript Fundamentals
 
+---
+
+## Coffee Shop Landing Page
+
+A responsive coffee shop landing page designed to showcase a cozy café experience with a modern and visually appealing user interface.
+
+#### Features
+
+* Responsive and modern user interface
+* Smooth scrolling navigation
+* Hero section with call-to-action buttons
+* Coffee, dessert, and bakery menu sections
+* About section highlighting the café experience
+* Contact form for customer inquiries
+* Responsive design for different screen sizes
+
+---
+
+## Technologies Used
+
+* HTML5
+* Tailwind CSS
+
+## Concepts Practiced
+
+* Tailwind CSS utility classes
+* Responsive Web Design
+* Flexbox and Grid layouts
+* Hover effects and transitions
+* Component-based UI structure
+* Modern landing page design
+
+---
 ## How to Run
 1. Download or clone the repository
 2. Open any project folder
