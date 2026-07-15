@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="eng" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Cozy Cup</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-[#fff8f0] text-gray-800">
+
+        <nav class="flex justify-between items-center px-6 md:px-16 py-5 bg-white shadow-md">
+            <h1 class="text-2xl font-bold text-[#724425]">The Cozy Cup</h1>
+            <ul class="hidden md:flex gap-8 font-medium">
+                <li><a href="#home" class="hover:text-[#724425]">Home</a></li>
+                <li><a href="#menu" class="hover:text-[#724425]">Menu</a></li>
+                <li><a href="#about" class="hover:text-[#724425]">About</a></li>
+                <li><a href="#contact" class="hover:text-[#724425]">Contact</a></li>
+            </ul>
+            <button class="bg-[#724425] text-white px-5 py-2 rounded-full hover:bg-[#5c3922]">Order Now</button>
+        </nav>
+        <section id="home" class="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-20 gap-10">
+            <div class="md:w-1/2">
+                <h1 class="text-5xl font-bold leading-tight mb-6">
+                    Sip, Relax & Enjoy Every Moment
+                </h1>
+                <p class="text-lg text-gray-600 mb-8">
+                    Enjoy freshly brewed coffee, delicious pastries, and a cozy atmosphere made for relaxing, working, and creating memories.
+                </p>
+                <button class="bg-[#724425] text-white px-8 py-3 rounded-full hover:bg-[#5c3922] tarnsition">Explore Menu</button>
+            </div>
+            <img
+            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80"
+            alt="Coffee shop"
+            class="md:w-1/2 rounded-2xl shadow-xl"
+            />
+        </section>
+        <section id="menu" class="py-20 px-6 md:px-16">
+            <h2 class="text-4xl font-bold text-center mb-12">Our Cozy Coffee Menu</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=800&q=80" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            Cappuccino
+                        </h3>
+                        <p class="text-gray-600 mb-4"> A classic blend of rich espresso, steamed milk, and creamy foam for a smooth coffee experience.</p>
+                        <span class="text-[#724425] font-bold">$5</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            Cold Brew
+                        </h3>
+                        <p class="text-gray-600 mb-4">Slow-steeped for over 12 hours, our cold brew delivers a naturally sweet, bold, and refreshing coffee with low acidity.</p>
+                        <span class="text-[#724425] font-bold">$7.5</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            Caramel Latte
+                        </h3>
+                        <p class="text-gray-600 mb-4">Freshly brewed espresso blended with creamy steamed milk and sweet caramel syrup, finished with a light caramel drizzle.</p>
+                        <span class="text-[#724425] font-bold">$8</span>
+                    </div>
+                </div>
+            </div>
+             <h2 class="text-4xl font-bold text-center mb-12 mt-10">Dessert Delights</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            Chocolate Brownie
+                        </h3>
+                        <p class="text-gray-600 mb-4">A warm, fudgy brownie made with premium dark chocolate, served with a rich and gooey center.</p>
+                        <span class="text-[#724425] font-bold">$7.5</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            Cheesecake
+                        </h3>
+                        <p class="text-gray-600 mb-4">A creamy baked cheesecake with a buttery biscuit crust, topped with fresh berries for the perfect finish.</p>
+                        <span class="text-[#724425] font-bold">$10</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            Tiramisu
+                        </h3>
+                        <p class="text-gray-600 mb-4">An Italian classic layered with coffee-soaked sponge, mascarpone cream, and a dusting of cocoa powder.</p>
+                        <span class="text-[#724425] font-bold">$12</span>
+                    </div>
+                </div>
+            </div>
+             <h2 class="text-4xl font-bold text-center mb-12 mt-10">Bakery Bliss</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            Butter Croissant
+                        </h3>
+                        <p class="text-gray-600 mb-4">Freshly baked every morning, our buttery croissant is flaky, light, and perfectly golden.</p>
+                        <span class="text-[#724425] font-bold">$7.5</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1607958996333-41aef7caefaa" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            Blueberry Muffin
+                        </h3>
+                        <p class="text-gray-600 mb-4">A soft vanilla muffin filled with juicy blueberries and finished with a delicate crumb topping.</p>
+                        <span class="text-[#724425] font-bold">$7.5</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            Cinnamon Roll
+                        </h3>
+                        <p class="text-gray-600 mb-4">Swirls of soft dough filled with cinnamon sugar and topped with a smooth vanilla cream cheese glaze.</p>
+                        <span class="text-[#724425] font-bold">$8.5</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="about" class="py-20 px-6 md:px-16 bg-[#724425] text-white">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="font-bold text-4xl mb-6">About Our Coffee Shop</h2>
+                <p class="text-lg leading-relaxed">Experience handcrafted coffee, freshly baked pastries, and delicious desserts made with quality ingredients.
+                    Relax, unwind, and enjoy every sip in a warm and welcoming atmosphere.
+                </p>                
+            </div>
+        </section>
+        <section id="contact" class="py-20 px-6 md:px-16">
+            <h2 class="text-4xl font-bold text-center mb-10">Contact Us</h2>
+            <form class="max-w-xl mx-auto flex flex-col gap-5">
+                <input class="border p-3 rounded-lg focus:outline-[#724425]" type="text" placeholder="Your Name">
+                <input class="border p-3  rounded-lg focus:outline-[#724425]" type="email" placeholder="Email">
+                <textarea class="border p-3 rounded-lg focus:outline-[#724425]" placeholder="Message"></textarea>
+                <button class="bg-[#724425] text-white py-3 rounded-lg hover:bg-[#5c3922]">Send Message</button>
+            </form>
+        </section>
+    <footer class="bg-gray-900 text-white text-center py-6">
+
+        <p>
+            © 2026 Spice Garden. All Rights Reserved.
+        </p>
+
+    </footer>        
+
+    </body>
+    
+</html>
