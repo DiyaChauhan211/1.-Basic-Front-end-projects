@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Travel Landing Page</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="font-sans">
+        <section id="home" class="relative h-screen">
+            <img src="https://plus.unsplash.com/premium_photo-1664362416374-4f734db57037?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Travel destination"
+            class="absolute inset-0 h-full w-full object-cover">
+            <div class="absolute inset-0">
+            <nav class=" relative z-10 flex items-center justify-between px-10 py-8 text-white bg-[#72c1cfbd]">
+            <h1 class="font-bold text-4xl">Blue Horizon</h1>
+            <ul class="hidden md:flex gap-8">
+                <li><a class="text-lg" href="#home">Home</a></li>
+                <li><a class="text-lg" href="#destinations">Destinations</a></li>
+                <li><a class="text-lg" href="#tours">Tours</a></li>
+                <li><a class="text-lg" href="#about"></a>About</li>
+                <li><a class="text-lg" href="#contact">Contact</a></li>
+            </ul>
+            <button class="text-black py-2 px-6 text-xl bg-white rounded-full border-black hover:scale-110 duration-500 transition">Book Now</button>
+        </nav>
+        <div class="z-10 flex flex-col items-center justify-center text-center bg-[#aecfd479] my-[100px] mx-[50px] rounded-2xl ">
+        <h2 class="text-7xl text-white font-bold py-6 ">Plan Your Dream Trip</h2>
+        <p class="text-white text-2xl py-4">"Exploring the world, one journey at a time,
+            Discover hidden gems, unforgettable experiences, and stories from every destination."</p>
+            </div>
+            </div>
+        </section>
+        <section id="destinations" class="bg-sky-100 px-5 py-10 my-10 mx-5">
+            <h2 class="text-slate-900 text-5xl font-bold text-center pb-5 mb-10">Popular Destinations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class=" justify-center max-w-[400px] rounded-lg bg-white p-4 shadow-lg">
+                <img src="https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tokyo">
+                <h3 class="text-2xl font-bold text-gray-800">Tokyo, Japan</h3>
+                <p>Experience futuristic skylines, ancient temples, world-class cuisine, and vibrant nightlife in Japan's iconic capital.</p>
+            </div>
+
+            <div class="justify-center max-w-[400px] rounded-lg bg-white p-4 shadow-lg ">
+                <img src="https://plus.unsplash.com/premium_photo-1677829177642-30def98b0963?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=400" alt="Bali">
+                <h3  class="text-2xl font-bold text-gray-800">Bali, Indonesia</h3>
+                <p>Relax on tropical beaches, explore lush rice terraces, and immerse yourself in Bali's rich culture and spirituality</p>
+            </div>
+
+            <div class=" justify-center max-w-[400px] rounded-lg bg-white p-4 shadow-lg ">
+                <img src="https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=400&h=350" alt="Switzerland">
+                <h3  class="text-2xl font-bold text-gray-800">Switzerland</h3>
+                <p>Discover snow-capped Alps, crystal-clear lakes, charming villages, and unforgettable scenic train journeys.</p>
+            </div>
+
+            <div class=" justify-center max-w-[400px] rounded-lg bg-white p-4 shadow-lg ">
+                <img src="https://plus.unsplash.com/premium_photo-1661964149725-fbf14eabd38c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=400" alt="Santorini">
+                <h3  class="text-2xl font-bold text-gray-800">Santorini, Greece</h3>
+                <p>Enjoy breathtaking sunsets, whitewashed cliffside villages, and stunning views over the sparkling Aegean Sea.</p>
+            </div>
+            
+                <div class=" justify-center max-w-[400px] rounded-lg bg-white p-4 shadow-lg ">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400&h=350" alt="Paris">
+                <h3  class="text-2xl font-bold text-gray-800">Paris, France</h3>
+                <p>Stroll through charming streets, admire iconic landmarks, savor world-famous cuisine, and experience the timeless romance of the City of Light.</p>
+            
+            </div>
+
+                <div class=" justify-center max-w-[400px] rounded-lg bg-white p-4 shadow-lg ">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=400&h=350" alt="Dubai">
+                <h3  class="text-2xl font-bold text-gray-800">Dubai, UAE</h3>
+                <p>Experience luxury shopping, towering skyscrapers, desert adventures, and unforgettable modern attractions.</p>
+
+            </div>
+
+            </div>
+
+        </section>
+        <section id="tours" class="bg-sky-100 px-5 py-10 my-10 mx-5">
+            <h3 class="text-slate-900 text-5xl font-bold text-center pb-5 mb-10"> Featured Tours</h3>
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class=" bg-[url('https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]  p-4 shadow-lg m-5 rounded-lg bg-cover ">
+                    <div class=" justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5">
+                    <h4 class="text-3xl text-slate-900 font-bold text-center p-5">Tokyo Neon Discovery</h4>
+                    <p class=" text-xl"><strong>Duration:</strong> 6 Days / 5 Nights</p>
+                    <p><strong>Price:</strong> $1,299 per person</p>
+                    <p><strong>Description:</strong>Experience the perfect blend of futuristic technology, rich traditions, vibrant nightlife, and world-famous Japanese hospitality.</p>
+                    <ul class="list-disc list-inside"><strong>Activities</strong>
+                    <li>Senso-ji Temple</li>
+                    <li>Shibuya Crossing & Harajuku</li>
+                    <li>Sushi tasting experience</li>
+                </ul>
+            </div>
+            </div>
+
+                <div class=" bg-[url('https://images.unsplash.com/photo-1604999333679-b86d54738315?q=80&w=725&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]  p-4 shadow-lg m-5 rounded-lg bg-cover ">
+                    <div class=" justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5">
+                    <h4  class="text-3xl text-slate-900 font-bold text-center p-5">Bali Bliss Escape</h4>
+                    <p class="text-xl"><strong>Duration:</strong> 5 Days / 4 Nights</p>
+                    <p><strong>Price:</strong> $799 per person</p>
+                    <p><strong>Description:</strong>Escape to the Island of the Gods, where pristine beaches, lush rice terraces, ancient temples, and breathtaking sunsets create the perfect tropical getaway.</p>
+                    <ul class="list-disc list-inside"><strong>Activities</strong>
+                    <li>Beach hopping at Nusa Dua & Seminyak</li>
+                    <li>Explore Uluwatu Temple</li>
+                    <li>Tegenungan Waterfall</li>
+                </ul>
+                </div>
+                </div>
+            
+                <div class=" bg-[url('https://images.unsplash.com/photo-1565516875094-d004072d7dac?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]  p-4 shadow-lg m-5 rounded-lg bg-cover ">
+                    <div class=" justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5">
+                    <h4  class="text-3xl text-slate-900 font-bold text-center p-5">Swiss Alpine Adventure</h4>
+                    <p class="text-xl"><strong>Duration:</strong> 7 Days / 6 Nights</p>
+                    <p><strong>Price:</strong> $1,199 per person</p>
+                    <p><strong>Description:</strong>Journey through Switzerland's majestic Alps, sparkling lakes, charming villages, and world-famous scenic train routes.</p>
+                    <ul class="list-disc list-inside"><strong>Activities</strong>
+                    <li>Glacier Express scenic train</li>
+                    <li>Jungfraujoch – Top of Europe</li>
+                    <li>Cable car to Mount Titlis</li>
+                </ul>
+                </div>
+                </div>
+
+
+
+        </section>
+        <section class="bg-sky-100 px-5 py-10 my-10 mx-5">
+    <h3 class="text-slate-900 text-5xl font-bold text-center pb-5 mb-10">Why Choose Us</h3>
+    <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-sky-200 rounded-lg"><div class="justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5 rounded-lg"> 
+        <h4 class="text-2xl text-slate-900 font-bold text-center">Best Prices</h4>
+        <p class="text-lg text-slate-900 text-center">Enjoy affordable travel packages with great value, transparent pricing, and no compromise on quality.</p>
+      </div></div>
+
+      <div class="bg-sky-200 rounded-lg"><div class="justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5 rounded-lg"> 
+        <h4 class="text-2xl text-slate-900 font-bold text-center">Unforgettable Experiences</h4>
+        <p class="text-lg text-slate-900 text-center">We create carefully planned journeys that help you discover new places, cultures, and memories that last a lifetime.</p>
+      </div></div>
+
+      <div class="bg-sky-200 rounded-lg"><div class="justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5 rounded-lg"> 
+        <h4 class="text-2xl text-slate-900 font-bold text-center">Trusted Travel Support</h4>
+        <p class="text-lg text-slate-900 text-center">From planning to your return, our team is here to provide smooth, reliable, and stress-free travel experiences.</p>
+      </div></div>
+
+    </div>
+  </section>
+
+
+  <section class="bg-sky-100 px-5 py-10 my-10 mx-5">
+      <h3 class="text-slate-900 text-5xl font-bold text-center pb-5 mb-10" >What Travelers Say</h3>
+      <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-blue-200 rounded-lg"><div class="justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5 rounded-lg">
+        <p class="italic text-lg">
+          "The best vacation I've ever had. Everything was perfectly organized!"
+        </p>
+        <h4 class="font-bold" >— Sarah Johnson ⭐⭐⭐⭐⭐</h4>
+      </div>
+      </div>
+      <div class="bg-blue-200 rounded-lg"><div class="justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5 rounded-lg">
+        <p class="italic text-lg">
+          "Blue Horizon made our vacation completely stress-free. Every detail was planned perfectly, and we got to experience places we will never forget."
+        </p>
+        <h4 class="font-bold">— Emily Carter ⭐⭐⭐⭐⭐</h4>
+      </div>
+      </div>
+      <div class="bg-blue-200 rounded-lg"><div class="justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5 rounded-lg">
+        <p class="italic text-lg">
+          "Our Bali trip was absolutely amazing! The itinerary was well organized, the recommendations were excellent, and every moment felt special."
+        </p>
+        <h4 class="font-bold">— Michael Anderson ⭐⭐⭐⭐⭐</h4>
+      </div>
+      </div>
+      
+      <div class="bg-blue-200 rounded-lg"><div class="justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5 rounded-lg">
+        <p class="italic text-lg">"From booking to the final day of our journey, the support team was helpful and professional. It was truly the trip of a lifetime."
+        </p>
+        <h4 class="font-bold">— Sophia Williams ⭐⭐⭐⭐⭐</h4>
+      </div>
+      </div>
+
+        <div class="bg-blue-200 rounded-lg"><div class="justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5 rounded-lg">
+        <p class="italic text-lg">
+          "We had an incredible journey thanks to Blue Horizon. The team understood exactly what we wanted and created an itinerary filled with unforgettable experiences and wonderful memories."
+        </p>
+        <h4 class="font-bold">— Olivia ⭐⭐⭐⭐⭐</h4>
+      </div>
+      </div>
+
+        <div class="bg-blue-200 rounded-lg"><div class="justify-center max-w-[400px] rounded-lg bg-[#cff1fa71] p-4 m-5 rounded-lg">
+        <p class="italic text-lg">
+         "Blue Horizon turned our travel dreams into reality. Their professionalism, quick support, and amazing destination choices made our trip one we will always remember."
+        </p>
+        <h4 class="font-bold">— James Wilson ⭐⭐⭐⭐⭐</h4>
+      </div>
+      </div>
+
+      </div>
+  </section>
+
+<section id="contact" class="bg-sky-100 px-5 py-16 my-10 mx-5 rounded-2xl shadow-md">
+  <h3 class="text-slate-900 text-4xl md:text-5xl font-bold text-center mb-10">
+    Ready for Your Next Adventure?
+  </h3>
+
+  <form class="max-w-xl mx-auto flex flex-col gap-5">
+    <input 
+      type="text" 
+      placeholder="Your Name"
+      class="w-full px-5 py-3 rounded-lg border-[1px] border-black/50 focus:outline-none focus:ring-2 focus:ring-sky-400"
+    >
+
+    <input 
+      type="email" 
+      placeholder="Email"
+      class="w-full px-5 py-3 rounded-lg border-[1px] border-black/50 focus:outline-none focus:ring-2 focus:ring-sky-400"
+    >
+
+    <textarea 
+      placeholder="Message"
+      rows="5"
+      class="w-full px-5 py-3 rounded-lg border-[1px] border-black/50 focus:outline-none focus:ring-2 focus:ring-sky-400 resize-none"
+    ></textarea>
+
+    <button 
+      class="bg-sky-500 text-white font-semibold py-3 rounded-lg hover:bg-sky-600 transition duration-300">
+      Send Message
+    </button>
+  </form>
+
+  <div class="text-center mt-8">
+    <button 
+      class="bg-slate-900 text-white px-8 py-3 rounded-full font-semibold hover:bg-slate-700 transition duration-300">
+      Book Your Trip
+    </button>
+  </div>
+</section>
+    <footer class="bg-blue-500 text-white text-center py-6"><p>
+            © 2026 Blue Horizon. All Rights Reserved.
+        </p></footer>
+  </body>
+</html>
